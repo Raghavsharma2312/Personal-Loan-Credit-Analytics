@@ -1,0 +1,112 @@
+PERSONAL LOAN & CREDIT RISK ANALYTICS
+=====================================
+
+1. PROJECT OVERVIEW
+-------------------
+
+This project analyzes personal loan applications, loan disbursements,
+customer credit profiles, and payment behavior for a financial institution.
+
+The objective is to identify loan portfolio trends, customer patterns,
+repayment behavior, and potential credit risk.
+
+
+2. BUSINESS OBJECTIVES
+----------------------
+
+• Analyze customer profiles and credit scores.
+• Analyze loan applications and approval/rejection trends.
+• Analyze loan disbursement and loan portfolio.
+• Analyze payment and repayment behavior.
+• Identify default and high-risk customers.
+• Compare loan performance across branches and customer segments.
+
+
+3. DATABASE TABLES
+------------------
+
+Customers
+- Stores customer demographic, income, employment and credit information.
+
+Branches
+- Stores branch and regional information.
+
+LoanApplications
+- Stores customer loan applications and application status.
+
+Loans
+- Stores approved/disbursed loan information and loan status.
+
+Payments
+- Stores loan payment, due amount, paid amount and payment status.
+
+
+4. KEY SQL CONCEPTS USED
+------------------------
+
+• SELECT
+• WHERE
+• GROUP BY
+• HAVING
+• ORDER BY
+• CASE WHEN
+• Aggregate Functions
+• INNER JOIN
+• LEFT JOIN
+• Subqueries
+• Correlated Subqueries
+• CTE
+• DENSE_RANK
+• RANK
+• Running Total
+• LAG
+• DATEDIFF
+• NULL Handling
+• Percentage Calculations
+
+
+5. BUSINESS ANALYSIS AREAS
+--------------------------
+
+Customer Analysis:
+- Customer count
+- Average income
+- Credit score analysis
+- Employment type analysis
+
+Loan Application Analysis:
+- Total applications
+- Approved applications
+- Rejected applications
+- Approval rate
+- Rejection rate
+
+Loan Portfolio Analysis:
+- Total loan amount
+- Average loan amount
+- Loan status analysis
+- Branch-wise loan analysis
+- Customer-wise loan analysis
+
+Payment Analysis:
+- Total amount due
+- Total amount paid
+- Outstanding amount
+- Late payment analysis
+- Payment delay analysis
+
+Credit Risk Analysis:
+- Default loan analysis
+- Default percentage
+- Default rate by employment type
+- Low credit score customers with default loans
+- High-risk loan identification
+
+
+6. TECHNOLOGY
+-------------
+
+Database: Microsoft SQL Server
+Query Tool: SQL Server Management Studio (SSMS)
+Language: SQL
+Version Control: GitHub
